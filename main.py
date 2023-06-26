@@ -3,16 +3,19 @@ from loan_records import insert_loan_records
 from fully_paid import create_fully_paid
 from ongoing_records import create_ongoing_table
 
+NUMBER_OF_RECORDS = 1000
+NUMBER_OF_ONGOING_RECORDS = 100
+
 # configuring database
 setup_database()
 
 # creating records and adding to "loan_records" table
-insert_loan_records(1000)
+insert_loan_records(NUMBER_OF_RECORDS)
 
 # extracting fully paid records from "loan_records" table
 create_fully_paid()
 
 # creating records and adding to "ongoing" table
-create_ongoing_table(100)
+create_ongoing_table(NUMBER_OF_ONGOING_RECORDS)
 
 
