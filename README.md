@@ -113,9 +113,9 @@ The loan application simulation replicates the user's loan request process on a 
 
 How it works?
 
-- By running the main.py file a SQL database in the project folder with three tables: loan_records, fully_paid, and ongoing is created.
+- By running the `main.py` file a SQL database in the project folder with three tables: loan_records, fully_paid, and ongoing is created.
 
-- By running the simulation_loan_application.py file the trial begins by prompting the user to provide all the necessary information for making an informed decision. Alternatively, the input modality can be turned off, and a randomly generated loan request can be used.
+- By running the `simulation_loan_application.py` file the trial begins by prompting the user to provide all the necessary information for making an informed decision. Alternatively, the input modality can be turned off, and a randomly generated loan request can be used.
 
 - After inputting the data, the simulation generates three results using different algorithms: Hierarchical Clustering, KNN (K-Nearest Neighbors), and Decision Tree. These results provide insights into whether the loan request would be accepted or declined. If accepted, the simulation also reveals the suggested offer that our partner (the bank) would make to the user.
 
@@ -131,7 +131,7 @@ The ongoing loans simulation is based on the assumption that we have the ability
 
 How it works?
 
-- By running the simulation_ongoing_loans.py file the trial begins by asking the user the start date and the length of the simulation
+- By running the `simulation_ongoing_loans.py` file the trial begins by asking the user the start date and the length of the simulation
   
 - Then a folder is created, with one directory per each month. Each directory contains the JSON files of transactions.
   
