@@ -127,7 +127,11 @@ NUMBER_OF_RECORDS = 1000 # number of records in the loan_records table
 NUMBER_OF_ONGOING_RECORDS = 100 # number of ongoing loans in the ongoing table 
 ```
 
-The ongoing loans transaction
+The ongoing loans simulation is based on the assumption that we have the ability to track loans that have been previously accepted in our bank over time. This allows us to mine transaction data and develop an automated system that monitors the number of payment delays and the remaining months for each loan. As the loans are fully repaid  or charged off, we enhance the algorithm by adding them to the loan_records table, along with the collected information on the number of delays. In a read data case, this iterative process enables us to continuously refine the algorithm.
+
+How it works?
+
+- 
 
 ---
 
