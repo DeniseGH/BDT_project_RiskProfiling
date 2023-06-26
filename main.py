@@ -3,6 +3,7 @@ from loan_records import insert_loan_records
 from fully_paid import insert_fully_paid
 from ongoing_records import create_ongoing_table
 
+# --- TUNING PARAMETERS
 NUMBER_OF_RECORDS = 1000
 NUMBER_OF_ONGOING_RECORDS = 100
 
