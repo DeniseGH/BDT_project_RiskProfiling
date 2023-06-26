@@ -60,7 +60,7 @@ The project is a big data system to manage
 
 > Spark related
 >
-> 1. `Ongoing_loans/spark.py` : PySpark, batch processing of transactions
+> 1. `Ongoing_loans/spark` : PySpark, batch processing of transactions
 
 
 
@@ -113,7 +113,7 @@ The loan application simulation replicates the user's loan request process on a 
 
 How it works?
 
-- Running the main.py file creates a SQL database in the project folder with three tables: loan_records, fully_paid, and ongoing.
+- By running the main.py file a SQL database in the project folder with three tables: loan_records, fully_paid, and ongoing is created.
 
 - The loan application simulation trial begins by prompting the user to provide all the necessary information for making an informed decision. Alternatively, the input modality can be turned off, and a randomly generated loan request can be used.
 
