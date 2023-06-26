@@ -1,2 +1,2 @@
 # BDT_project_RiskProfiling
-To see the project go in the origin brench
+> *NOTE*: if you want to see the project go in the origin brench !!
