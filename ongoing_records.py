@@ -3,7 +3,7 @@ import random
 from SQL_manager import DatabaseConnector
 
 
-def create_ongoing_table(number_el):
+def create_ongoing_loans(number_el):
     """
     :param number_el: decides how many rows add to the "Ongoing Loan" table
     :return:
