@@ -2,9 +2,9 @@ from classes import Fully_Paid
 from SQL_manager import DatabaseConnector
 
 
-def create_fully_paid():
+def insert_fully_paid():
     """
-    This function retrieves "Fully Paid" loans from the principle table  and inserts into the namesake table "Fully Paid" loan records
+    This function retrieves "Fully Paid" loans from the principle table and inserts into the namesake table "Fully Paid" loan records
     """
     db = DatabaseConnector('CREDIT_RECORDS.db')
 
