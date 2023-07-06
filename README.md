@@ -4,7 +4,7 @@
 
 ***Abstract***
 
-The project is a big data system to manage
+This project presents a novel algorithmic approach to improve risk assessment in banks by leveraging client behavioral profiles and loan repayment history. The objective is to develop an algorithm that can advise banks on whether to accept or decline new loan requests, while also providing tailored offers in case of acceptance. By employing machine learning techniques such as clustering and decision trees, the proposed algorithm provides reliable loan request evaluations. The system architecture incorporates data creation, storage, loan processing, and ongoing loan management. The implementation utilizes SQL, Redis, and Apache Spark technologies. This approach offers banks an effective tool to enhance risk mitigation, streamline loan management, and deliver personalized loan offers. 
 
 ---
 
@@ -17,7 +17,7 @@ The project is a big data system to manage
 
 - [x] Simulation of loan requests
 
-- [x] Decision tree provides a systematic approach for financial institutions to evaluate and respond to loan applications
+- [x] Systematic approach for decision process through ML algorithms
       
 - [x] Tailored offers based on clustering of past loans 
 
@@ -30,7 +30,6 @@ The project is a big data system to manage
 - [ ] Tailored offers based on social media activity, psychometrics, and geolocation markers 
 
   
-
 ---
 
 ##### Technologies
@@ -43,12 +42,10 @@ The project is a big data system to manage
 
 ##### Architecture
 
-![Esselunga_project drawio](https://user-images.githubusercontent.com/61838905/176533733-2c342f80-1883-4be3-8182-f263f1c4420c.png)
-
+<img width="879" alt="Schermata 2023-06-26 alle 22 56 42" src="https://github.com/DeniseGH/BDT_project_RiskProfiling/assets/128131934/b95a6a20-2d85-45de-b44b-3462603ab42e">
 
 
 ---
-
 
 
 ##### Project files
@@ -131,16 +128,19 @@ The ongoing loans simulation is based on the assumption that we have the ability
 
 How it works?
 
-- By running the `simulation_ongoing_loans.py` file the trial begins by asking the user the start date and the length of the simulation
+- By running the `simulation_ongoing_loans.py` file the trial begins by asking the user the start date and the length (in months) of the simulation
   
 - Then a folder is created, with one directory per each month. Each directory contains the JSON files of transactions.
   
 - An automated system to analyze loan transactions. Our system assumes that loan repayments should be made before the 27th of each month. Any transaction occurring after the 27th is considered as a late payment. The information about the months left and the number of delays of each ongoing loans are kept on a Redis hash. 
 
 
-
-
-
 ---
+
+### Visual encoding of the decision making process through Decision Tree
+With an high level of complexity
+
+<img width="1077" alt="DT" src="https://github.com/DeniseGH/BDT_project_RiskProfiling/assets/128131934/1569dece-fffc-4210-8e9b-74f147209f9c">
+
 
 
